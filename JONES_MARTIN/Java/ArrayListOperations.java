@@ -12,6 +12,7 @@ public class ArrayListOperations {
         System.out.println("Initial List: " + list);
 
 
+
         list.remove("Apple");
 
         System.out.println("Initial List: " + list);

@@ -16,6 +16,7 @@ public class DayIsWeekend {
         Day(boolean isWeekend) {
             this.isWeekend = isWeekend;
         }
+
         public boolean isWeekend() {
         return isWeekend;
     }
