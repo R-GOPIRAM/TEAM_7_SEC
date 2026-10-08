@@ -18,6 +18,8 @@ frequencies.forEach((count, word) => {
     console.log(`${word}: ${count}`);
 });
 
+export {};
+
 
 
 

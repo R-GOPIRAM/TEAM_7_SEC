@@ -14,3 +14,5 @@ function isPalindrome(str: string):string {
 }
 console.log(isPalindrome("helleh"));
 console.log(isPalindrome("Madam"))
+
+export {};

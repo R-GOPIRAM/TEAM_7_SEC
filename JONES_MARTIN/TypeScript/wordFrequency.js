@@ -7,7 +7,7 @@ function fuc(sentence) {
     }
     return map;
 }
-const text = "Hello Hello Hello Jones jones Jones jones martin";
+const text = "Hello Hello Jones jones Jones jones martin";
 const frequencies = fuc(text);
 frequencies.forEach((count, word) => {
     console.log(`${word}: ${count}`);

@@ -23,3 +23,5 @@ const cat: Animal = new Cat();
 animal.makeSound();
 dog.makeSound();
 cat.makeSound();
+
+export {};

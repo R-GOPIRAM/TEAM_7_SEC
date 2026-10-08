@@ -12,5 +12,5 @@ function isPalindrome(str) {
     }
     return str + ` is Palindrome`;
 }
-console.log(isPalindrome("helleh"));
+console.log(isPalindrome("HelleH"));
 console.log(isPalindrome("Madam"));
