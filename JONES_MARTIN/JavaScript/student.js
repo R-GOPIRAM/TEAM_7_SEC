@@ -6,7 +6,7 @@ class Student{
         this.grade=grade;
     }
     display(){
-        return `ID: ${this.id}, Name: ${this.name}, Grade: ${this.grade}`;
+        return `ID: ${this.id}, Name: ${this.name}, Grade: ${this.grade} `;
     }
 
     setName(name){

@@ -8,7 +8,7 @@ function Unique(arr) {
     return arr.filter(num => map[num] === 1);
 }
 
-const numbers = [1, 2, 2, 3, 4, 4, 5, 1, 6];
+const numbers = [1, 2, 2, 3, 4, 4, 5, 1, 6, 1];
 
 console.log(Unique(numbers));
 
