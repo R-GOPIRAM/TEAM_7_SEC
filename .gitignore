@@ -1,11 +1,11 @@
 
 
-# Node.js dependencies
-node_modules/
+# # Node.js dependencies
+# node_modules/
 
-# Environment variables
-.env
+# # Environment variables
+# .env
 
-# Generated TypeScript files
-*.js
-*.d.ts
+# # Generated TypeScript files
+# *.js
+# *.d.ts
