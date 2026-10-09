@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Custom Element</title>
+</head>
+
+<body>
+
+    <my-card></my-card>
+
+    <script>
+
+        class MyCard extends HTMLElement {
+
+            constructor() {
+                super();
+
+                this.innerHTML = `
+                    <h2>Hello!</h2>
+                    <p>This is my custom component.</p>
+                `;
+            }
+
+        }
+
+        customElements.define("my-card", MyCard);
+
+    </script>
+
+</body>
+</html>
